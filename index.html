@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MVP GRAPHICS</title>
+
+    <!-- Conectar CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+    <h1 class="logo">MVP GRAPHICS</h1>
+
+    <nav class="menu">
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Portafolio</a>
+
+    <div class="dropdown">
+    <details>
+        <summary class="contacto-btn">Contacto</summary>
+
+        <div class="dropdown-content">
+            <a href="https://wa.me/18494478649?text=Hola%20quiero%20un%20diseño" target="_blank">WhatsApp</a>
+            <a href="https://discord.com/users/1003023642793349150" target="_blank">Discord</a>
+        </div>
+    </details>
+</div>
+</nav>
+</header>
+
+    <!-- HERO -->
+    <section class="hero">
+    <h2>Diseños que destacan 🔥</h2>
+    <p>Impulsamos tu marca con diseños únicos</p>
+
+    <a href="#portafolio" class="btn">Ver Portafolio</a>
+</section>
+
+    <section class="portafolio" id="portafolio">
+    <h2>Portafolio</h2>
+
+    <div class="filtros">
+        <button onclick="filtrar('todos')">Todos</button>
+        <button onclick="filtrar('logos')">Logos</button>
+        <button onclick="filtrar('flyers')">Flyers</button>
+        <button onclick="filtrar('banners')">Banners</button>
+        <button onclick="filtrar('miniaturas')">Miniaturas</button>
+    </div>
+
+    <div class="galeria">
+        <img src="img/img1.png" class="logos">
+        <img src="img/img2.png" class="banners">
+        <img src="img/img3.png" class="miniaturas">
+        <img src="img/img4.png" class="logos">
+        <img src="img/img5.png" class="logos">
+        <img src="img/img6.png" class="logos">
+        <img src="img/img7.png" class="logos">
+        <img src="img/img8.png" class="logos">
+        <img src="img/img9.png" class="logos">
+        <img src="img/img10.png" class="flyers">
+    </div>
+</section>
+
+    <!-- CONTACTO -->
+    <section>
+        <h2>Contacto</h2>
+        <p>WhatsApp / Discord</p>
+        <p>BY:DOMIMVP
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
